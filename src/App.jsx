@@ -14,7 +14,7 @@ function App() {
             {/* main pages structure */}
             <main className=" h-screen grid grid-cols-12">
                 {/* navbar component -> left side */}
-                <aside className="col-span-2  bg-red-500 h-screen">
+                <aside className="col-span-2 h-screen">
                     <Navbar />
                 </aside>
                 {/* pages and footer -> right side */}
