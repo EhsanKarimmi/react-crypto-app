@@ -14,7 +14,9 @@ function App() {
             {/* main pages structure */}
             <main className=" h-screen grid grid-cols-12">
                 {/* navbar component -> left side */}
-                <Navbar />
+                <aside className="col-span-2  bg-red-500 h-screen">
+                    <Navbar />
+                </aside>
                 {/* pages and footer -> right side */}
                 <div className="col-span-10">
                     {/* pages routes */}
